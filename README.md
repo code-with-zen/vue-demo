@@ -1,38 +1,18 @@
-# demo
+# Vue 3 Shopping Cart Demo 🛒
 
-This template should help get you started developing with Vue 3 in Vite.
+这是一个基于 **Vue 3 Composition API** 构建的电商购物车核心功能演示项目。旨在展示对 Vue 3 响应式系统及数据流的理解。
 
-## Recommended IDE Setup
+## 🛠 技术栈
+- **Vue 3** (Script Setup)
+- **Vite** (构建工具)
+- **CSS3** (Flexbox 布局)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ 核心亮点
+1. **响应式驱动**：使用 `ref` 实现数据驱动视图，无手动 DOM 操作。
+2. **依赖追踪**：利用 `computed` 自动计算总价，利用 Vue 的缓存机制优化性能。
+3. **组件化思维**：逻辑与视图分离，代码结构清晰。
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## 🚀 快速运行
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
